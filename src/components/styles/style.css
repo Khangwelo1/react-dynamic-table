@@ -12,7 +12,7 @@
     justify-content: space-between;
 }
 .row-option{
-    width: 1%;
+    width: 2%;
     text-align: center;
 }
 .row-option i{
@@ -31,3 +31,25 @@
 .field-row {
     border-bottom: 1px solid #bbb;
 }
+.Dropdown-menu{
+    background-color: red;
+    color: green;
+    
+}
+.Dropdown-for-status{
+    height: 100%;
+    width: 100%;
+    
+}
+.Dropdown-for-status {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .done {
+    background-color: blue;
+  }
+  
+  .todo {
+    background-color: yellow;
+  }
