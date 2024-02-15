@@ -12,17 +12,17 @@
     justify-content: space-between;
 }
 .row-option{
-    width: 2%;
+    min-width: 2%;
     text-align: center;
 }
-.row-option i{
+/* .row-option i{
     text-align: center;
     width: 100%;
-}
+} */
 .field-name{
     border-left: 1px solid #bbb;
     text-align: center;
-    width: 9%;
+    min-width: 9%;
     height: 2rem;
 }
 .field-name:first-child{
@@ -33,23 +33,18 @@
 }
 .Dropdown-menu{
     background-color: red;
-    color: green;
+    color: black;
+    height: 100%;
+    
     
 }
 .Dropdown-for-status{
     height: 100%;
     width: 100%;
+    background-color: red;
+    color: black;
+
     
 }
-.Dropdown-for-status {
-    height: 100%;
-    width: 100%;
-  }
+
   
-  .done {
-    background-color: blue;
-  }
-  
-  .todo {
-    background-color: yellow;
-  }
